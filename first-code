@@ -1,0 +1,20 @@
+SELECT Artist.Name
+FROM Artist;
+
+SELECT *
+FROM Invoice
+WHERE Invoice.BillingCountry = "Germany";
+
+SELECT Count (Album.AlbumId)
+FROM Album;
+
+SELECT count (Customer.CustomerId)
+FROM Customer
+WHERE Customer.Country = "France";
+
+
+SELECT SUM (Invoice.Total)
+FROM Invoice;
+
+SELECT avg (Invoice.Total)
+FROM Invoice;
